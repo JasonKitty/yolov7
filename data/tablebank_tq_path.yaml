@@ -1,0 +1,11 @@
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /mnt/geogpt-gpfs/zhijiang/home/zsb/yolov7/TableBank/Detection/train.txt  # 187199 images
+val: /mnt/geogpt-gpfs/zhijiang/home/zsb/yolov7/TableBank/Detection/val.txt  # 7265 images
+test: /mnt/geogpt-gpfs/zhijiang/home/zsb/yolov7/TableBank/Detection/test.txt  # 5719 images
+
+# number of classes
+nc: 1
+
+# class names
+names: ['table']
